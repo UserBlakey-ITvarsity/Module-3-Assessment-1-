@@ -1,0 +1,262 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+    background-image: url(Imgs/Other/Food-blur.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* --------------------- HOME BODY ----------------------- */
+
+.home-body{
+    background-image: url(Imgs/food-cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home-menu{
+    text-align: center
+}
+
+.menu-selection a {
+    display: block;
+    width: 180px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.8); 
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin: 10px auto; 
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.menu-selection a:hover {
+    background-color: #fff79f;
+}
+
+/* ----------- Home icons ---------- */
+#home-text-img{
+    width: 155px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    display: block;
+    background-color: rgba(240, 248, 255, 0.8);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+}
+
+#home-logo-img{
+    width: 45px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+    background-color: rgba(240, 248, 255, 0.8);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+}
+
+/* ---------------- MEAL ------------------------ */
+
+.header{
+    background-image: url(Imgs/food-cover.jpg);
+    width: 100%;
+    height: 100px;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px rgba(0,0,0,0.2);
+}
+
+    
+.header-logo{
+    float: left;
+    width: 55px;
+    margin: 18px;
+    padding: 1px;
+    display: block;
+    background-color: rgba(240, 248, 255, 0.8);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.header-text{
+    float: left;
+    width: 160px;
+    margin: 18px;
+    padding: 1px;
+    display: block;
+    background-color: rgba(240, 248, 255, 0.8);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+/* ---------------- Food lists ------------------ */
+
+
+.food-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(200, 200, 200, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.food-item a{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(200, 200, 200, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.food-item img {
+    width: 80px;
+    height: auto;
+    margin-right: 15px; 
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.food-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* --------------------- FOOD DETAILS --------------- */
+.food-details {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.food-details img {
+    border-radius: 30px;
+    margin: 28px 0;
+    border: double;
+    width: 65%;
+}
+
+.food-details h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border: 3px solid rgba(200, 200, 200, 0.7);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.food-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+.food-info p {
+    margin: 0;
+}
+
+.food-details ul, .food-details ol {
+    text-align: left;
+    margin: auto;
+    max-width: 500px;
+}
+
+/* ------------------ Other ---------------- */
+.category-title {
+    text-align: center;
+    background-color: rgba(188, 249, 179, 0.5);
+    padding: 15px;
+    border: 3px solid rgba(188, 249, 179, 0.5);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.category-title h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    font-family: serif;
+}
+
+.scroll-space {
+    height: 40px; 
+    width: 100%;
+    background-color: transparent;
+}
+
+/* ------------- insure checklist ----------*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul li::before {
+    content: "O";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+}
+
+ul li.checked::before {
+    content: "X"; 
+}
+
+
+
